@@ -29,11 +29,11 @@ body{
 }
 .container{
     display: flex;
-    height: 600px;
-    width: 400px;
+    height: 580px;
+    width: 350px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: var(--Cwhite);
     border-radius: 20px;
     padding: 20px;
@@ -45,14 +45,24 @@ body{
 
 /* images */
 img{
-    transform: translateY(-12.5%) scale(0.6);
+    transform: translateY(-8.5%) scale(0.55);
     border-radius: 20px;
+    /* margin: 0; */
+    /* padding: 0; */
     /* border: 2px solid green; */
 }
 /* desc */
 .desc{
-    font-size: 15px;
+    text-align: center;
+    transform: translateY(-190%);
+    font-size: 1.1rem;
 }
 .boldd{
+    transform: translateY(-230%);
     font-weight: 800;
+    font-size: 1.6rem;
+}
+.ogDesc{
+    color: rgb(132, 134, 138);
+    /* width: 80% */
 }
